@@ -9,6 +9,6 @@ const change = document.querySelector("#text")
 
 inputSize.addEventListener("input", (event) => {
     change.style.fontSize = event.currentTarget.value + "px" ;
-//     //style.fontSize = '40px'
+
 })
 

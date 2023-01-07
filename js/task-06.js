@@ -12,7 +12,6 @@ const textInput = document.querySelector("#validation-input")
 const setFocus = document.querySelector("[data-length='6']")
 
 textInput.onblur = function() {
-  console.log(this.value.length);
   if (setFocus.dataset.length != this.value.length ) { 
     this.classList.add('invalid');
   } else {
@@ -23,4 +22,3 @@ textInput.onblur = function() {
 
 
 
-// console.log(setFocus.dataset.length)

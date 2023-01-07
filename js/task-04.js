@@ -14,7 +14,7 @@ const total = counterValue
 const btnIncrement = document.querySelector('button[data-action="increment"]')
 const increment = () => {
     total.textContent = Number(total.textContent) + 1
-    console.log(total.textContent);
+    
 };
 btnIncrement.addEventListener("click", increment);
 
@@ -22,7 +22,7 @@ btnIncrement.addEventListener("click", increment);
 const btnDecrement = document.querySelector('button[data-action="decrement"]')
 const decrement = () => {
     total.textContent -= 1
-    console.log(total.textContent )
+    
 };
 btnDecrement.addEventListener("click", decrement);
 btnIncrement.addEventListener("click", increment);
